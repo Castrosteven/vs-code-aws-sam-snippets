@@ -3,7 +3,7 @@
     "displayName": "AWS SAM Snippets",
     "description": "A Collection of snippets for AWS Sam Template",
     "version": "1.0.0",
-    "publisher": "castrosteven",
+    "publisher": "webdevsnyc",
     "repository": {
         "type": "git",
         "url": "https://github.com/castrosteven/aws-sam-snippets"
