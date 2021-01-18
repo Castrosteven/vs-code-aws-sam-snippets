@@ -5,6 +5,9 @@
 ______________
 
 Simply create a template.yaml file, and in it use the following 
+
+
+___
 | Template Starter | Description                                                                |
 | ---------------- | -------------------------------------------------------------------------- |
 | `!samTemplate`   | The Default Anatomy, with the required Transform, and optional properties. |
