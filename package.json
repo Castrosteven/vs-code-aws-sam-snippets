@@ -6,7 +6,7 @@
     "publisher": "webdevsnyc",
     "repository": {
         "type": "git",
-        "url": "https://github.com/castrosteven/aws-sam-snippets"
+        "url": "https://github.com/Castrosteven/vs-code-aws-sam-snippets"
     },
     "icon": "icon.png",
     "engines": {
