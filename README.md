@@ -3,10 +3,6 @@
 *These snippets are a direct copy paste of the AWS SAM Template Documentation for easy boiler plate. Custom Snippets will come in future updates.*
 [Link to AWS SAM Template Anatomy Definition ](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-specification-template-anatomy.html)
 ______________
-
-Simply create a template.yaml file, and in it use the following 
-
-
 ___
 | Template Starter | Description                                                                |
 | ---------------- | -------------------------------------------------------------------------- |
