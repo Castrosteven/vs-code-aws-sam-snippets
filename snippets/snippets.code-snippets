@@ -1,0 +1,142 @@
+{
+    // https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-specification-template-anatomy.html
+    "AWS SAM TEMPLATE": {
+        "prefix": "!samTemplate",
+        "body": [
+            "#Required",
+            "Transform: AWS::Serverless-2016-10-31",
+            "#Optional",
+            "Description: $1",
+            "#Optional",
+            "Globals:",
+            "#Optional",
+            "Metadata:",
+            "#Optional",
+            "Parameters:",
+            "#Optional",
+            "Mappings:",
+            "#Optional",
+            "Conditions:",
+            "#Required",
+            "Resources: $2",
+            "#Optional",
+            "Outputs:",
+            "",
+        ],
+        "description": "A Default SAM Template Definition"
+    },
+    // https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-specification-template-anatomy-globals.html
+    "Globals Function Resource Properties": {
+        "prefix": "GlobalsFunction",
+        "body": [
+            "Function:",
+            "  Handler:",
+            "  Runtime:",
+            "  CodeUri:",
+            "  DeadLetterQueue:",
+            "  Description:",
+            "  MemorySize:",
+            "  Timeout:",
+            "  VpcConfig:",
+            "  Environment:",
+            "  Tags:",
+            "  Tracing:",
+            "  KmsKeyArn:",
+            "  Layers:",
+            "  AutoPublishAlias:",
+            "  DeploymentPreference:",
+            "  PermissionsBoundary:",
+            "  ReservedConcurrentExecutions:",
+            "  ProvisionedConcurrencyConfig:",
+            "  AssumeRolePolicyDocument:",
+            "  EventInvokeConfig:",
+            "  ",
+            ""
+        ],
+        "description": "Global Function Properties"
+    },
+    "Globals Api Resource Properties": {
+        "prefix": "GlobalsApi",
+        "body": [
+            "Api:",
+            "  Auth:",
+            "  Name:",
+            "  DefinitionUri:",
+            "  CacheClusterEnabled:",
+            "  CacheClusterSize:",
+            "  Variables:",
+            "  EndpointConfiguration:",
+            "  MethodSettings:",
+            "  BinaryMediaTypes:",
+            "  MinimumCompressionSize:",
+            "  Cors:",
+            "  GatewayResponses:",
+            "  AccessLogSetting:",
+            "  CanarySetting:",
+            "  TracingEnabled:",
+            "  OpenApiVersion:",
+            "  Domain:",
+            "  ",
+            ""
+        ],
+        "description": "Global Api Properties"
+    },
+    "Globals HttpApi Resource Properties": {
+        "prefix": "GlobalsHttpApi",
+        "body": [
+            "HttpApi:",
+            "  Auth:",
+            "  AccessLogSettings:",
+            "  StageVariables:",
+            "  Tags:",
+            "  ",
+            ""
+        ],
+        "description": "Global HttpApi Properties"
+    },
+    "Globals SimpleTable Resource Properties": {
+        "prefix": "GlobalsSimpleTable",
+        "body": [
+            "SimpleTable:",
+            "  SSESpecification:",
+            "  ",
+            ""
+        ],
+        "description": "Gloabal SimpleTable Properties"
+    },
+    // https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-resource-api.html
+    "ServelessApi Resource Properties": {
+        "prefix": "ServerlessApi",
+        "body": [
+            "MyServerlessApi$1: ",
+            "  Type: AWS::Serverless::Api",
+            "  Properties:",
+            "    #All Optional",
+            "    AccessLogSetting:",
+            "    Auth:",
+            "    BinaryMediaTypes:",
+            "    CacheClusterEnabled:",
+            "    CacheClusterSize:",
+            "    CanarySetting:",
+            "    Cors:",
+            "    DefinitionBody:",
+            "    DefinitionUri:",
+            "    Description:",
+            "    Domain:",
+            "    EndpointConfiguration:",
+            "    GatewayResponses:",
+            "    MethodSettings:",
+            "    MinimumCompressionSize:",
+            "    Models:",
+            "    Name:",
+            "    OpenApiVersion:",
+            "    #Required: String ",
+            "    StageName: Prod$2",
+            "    Tags:",
+            "    TracingEnabled:",
+            "    Variables:",
+            ""
+        ],
+        "description": "Serverless Api Properties"
+    },
+}

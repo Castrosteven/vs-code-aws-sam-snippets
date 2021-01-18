@@ -1,0 +1,26 @@
+{
+    "name": "aws-sam-snippets",
+    "displayName": "AWS SAM Snippets",
+    "description": "A Collection of snippets for AWS Sam Template",
+    "version": "1.0.0",
+    "publisher": "Steven Castro",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/castrosteven/aws-sam-snippets"
+    },
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "yaml",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
